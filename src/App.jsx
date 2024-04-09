@@ -1,4 +1,4 @@
-import { Part1, Codebar, Intro, FeatureIntro, Nav,Instal, Overview,Resourse } from "./sections";
+import { Home, Codebar, Intro, FeatureIntro, Nav,Instal, Overview,Resourse } from "./sections";
 import { useEffect, useState } from "react";
 import "./index.css";
 
@@ -23,7 +23,7 @@ const App = () => {
     <main className='relative'>
       <Nav />
       <section className="section from-slate-100 to-slate-200 overflow-auto darkbg">
-          <Part1 />
+          <Home />
       </section>
 
       <section className="section from-slate-100 to-red-300 darkbg">

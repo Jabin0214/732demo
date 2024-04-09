@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { dark_mode, light_mode } from '../assets/icons';
+
 
 const FeatureIntro = (props) => {
   const [imageUrl, setImageUrl] = useState('https://picsum.photos/200');
@@ -36,7 +38,7 @@ const FeatureIntro = (props) => {
       </div>
 
       <div className="card">
-      <h3 className='mt-5 font-montserrat text-3xl leading-normal font-bold'>
+        <h3 className='mt-5 font-montserrat text-3xl leading-normal font-bold'>
           Case2: Mode Switch
         </h3>
         <button
@@ -47,8 +49,8 @@ const FeatureIntro = (props) => {
         </button>
 
         <button className='px-6 py-3 ' onClick={() => { props.handleThemeSwitchFunction() }}>
-          <img src="/dark_mode.svg" alt="Icon" className="w-10 dark:hidden" />
-          <img src="/light_mode.svg" alt="Icon" className="w-10 hidden dark:block" />
+          <img src={dark_mode} alt="Icon" className="w-10 dark:hidden" />
+          <img src={light_mode} alt="Icon" className="w-10 hidden dark:block" />
           <p className="w-10 dark:hidden">DarkMode</p>
           <p className="w-10 hidden dark:block">LightMode</p>
         </button>
@@ -61,10 +63,10 @@ const FeatureIntro = (props) => {
           className=
         </h3>
         <p className='py-4 text-xl font-montserrat '>
-          dark: (what you want to change in dark mode)  
+          dark: (what you want to change in dark mode)
         </p>
       </div>
-      
+
     </div>
   );
 };

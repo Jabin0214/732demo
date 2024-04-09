@@ -1,11 +1,11 @@
-
+import { tailwindcss } from "../assets/icons";
 
 const Intro = () => {
   return (
     <div className="sm:flex items-center max-w-screen-xl">
       <div className="sm:w-1/2 p-10">
         <div className="image object-center text-center bg-transparent">
-          <img src="./tailwindcss-mark.svg"  alt="Company Logo"/>
+          <img src={tailwindcss}  alt="Company Logo"/>
         </div>
       </div>
       <div className="sm:w-1/2 p-5">

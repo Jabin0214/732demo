@@ -1,4 +1,4 @@
-import Part1 from "./Part1";
+import Home from "./Home";
 import Codebar from "./Codebar";
 import Intro from "./Intro";
 import FeatureIntro from "./FeatureIntro";
@@ -9,7 +9,7 @@ import Resourse from "./Resourse";
 
 
 export {
-    Part1,
+    Home,
     Codebar,
     Intro,
     FeatureIntro,

@@ -1,4 +1,4 @@
-const Part1 = () => {
+const Home = () => {
   return (
     <div className="mx-auto max-w-screen-xl">
       <div className="flex justify-center items-center">
@@ -24,4 +24,4 @@ const Part1 = () => {
   );
 };
 
-export default Part1;
+export default Home;
