@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .card{
+    @apply flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-6;
+  }
+  .section{
+    @apply sticky top-0 h-screen flex flex-col items-center justify-center bg-gradient-to-b
+  }
+  .darkbg{
+    @apply dark:bg-gradient-to-r dark:from-gray-900 dark:via-purple-800 dark:to-gray-900 dark:text-white;
+  }
+  
+
+  @keyframes colorShift {
+    0% {
+      color: #8b5cf6; 
+    }
+    25% {
+      color: #7e22ce; 
+    }
+    50% {
+      color: #3b0764; 
+    }
+    75% {
+      color: #7e22ce; 
+    }
+    100% {
+      color: #d8b4fe; 
+    }
+  }
+  .text-color-shift {
+    animation: colorShift 2s infinite linear;
+  }
+}
