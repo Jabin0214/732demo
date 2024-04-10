@@ -1,3 +1,5 @@
+import { menu } from "../assets/icons";
+
 const Nav = () => {
     return (
       <header className='px-3 py-3 w-full darkbg'>
@@ -18,7 +20,7 @@ const Nav = () => {
                 </a>
                 </li>
             <li >
-                <a href=''
+                <a href='https://github.com/UOA-CS732-SE750-Students-2024/cs732-assignment-Jabin0214'
                   className='font-montserrat leading-normal text-lg text-slate-gray'>
                   Github
                 </a>
@@ -27,7 +29,7 @@ const Nav = () => {
           </ul>
                 
         <div className='hidden max-lg:block'>
-            <img src="/vite.svg" alt='hamburger icon' width={25} height={25} />
+            <img src={menu} alt='hamburger icon' width={30} height={30} />
         </div>
         </nav>
       </header>

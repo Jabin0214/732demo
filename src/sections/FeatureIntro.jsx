@@ -13,6 +13,11 @@ const FeatureIntro = (props) => {
 
   return (
     <div className='px-10 py-20 max-h-screen overflow-y-auto flex flex-wrap justify-center gap-5 '>
+      <div>
+        <h1 className='text-[80px] max-md:text-[30px] font-bungee break-words px-10'>
+          Features</h1>
+      </div>
+
       <div className='card'>
         <h3 className='mt-5 font-montserrat text-3xl leading-normal font-bold'>
           Case1: Random Picture
