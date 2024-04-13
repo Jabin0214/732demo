@@ -2,6 +2,7 @@
 
 This is a project overview for a Tailwind CSS project.
 
+
 ## Introduction
 
 Welcome to our project using Tailwind CSS! This README provides a comprehensive overview of Tailwind CSS, its philosophy, and practical usage examples demonstrated through this project. Tailwind CSS is a highly customizable, utility-first CSS framework designed to streamline the development process by using atomic-level CSS classes to construct sophisticated designs with ease and efficiency.
@@ -22,6 +23,8 @@ To install the project, follow these steps:
 1. Clone the repository (or download directly): `git clone https://github.com/UOA-CS732-SE750-Students-2024/cs732-assignment-Jabin0214.git`
 2. Install the dependencies: `npm install`
 3. Run the project: `npm run dev`
+
+And I deploy it in AWS Amplify, you can try it directly through https://main.d3h64oq8dhodyz.amplifyapp.com
 
 ## Conclusion
 
